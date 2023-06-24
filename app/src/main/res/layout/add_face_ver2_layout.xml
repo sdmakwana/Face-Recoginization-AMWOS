@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".add_face_ver2_java">
+
+    <TextView
+        android:id="@+id/home_ver3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:fontFamily="@font/open_sans"
+        android:gravity="center"
+        android:lineSpacingExtra="-7sp"
+        android:text="Add Face"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.022" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView_previewView_ver3"
+        android:layout_width="330dp"
+        android:layout_height="330dp"
+        app:cardCornerRadius="32dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.120000005">
+
+        <androidx.camera.view.PreviewView
+            android:id="@+id/previewView_ver3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </androidx.camera.view.PreviewView>
+
+        <Button
+            android:id="@+id/button5_ver3"
+            android:layout_width="53dp"
+            android:layout_height="50dp"
+            android:layout_gravity="bottom|left"
+            android:layout_marginLeft="3dp"
+            android:background="@drawable/cam"
+            android:elevation="1dp"
+            tools:layout_conversion_absoluteHeight="63dp"
+            tools:layout_conversion_absoluteWidth="62dp" />
+
+    </androidx.cardview.widget.CardView>
+
+    <Button
+        android:id="@+id/button3_ver3"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:background="@drawable/signup_login_btn_with_effect"
+        android:rotation="0"
+        android:rotationX="0"
+        android:rotationY="0"
+        android:text="Add Face"
+        android:textAlignment="center"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.90999997"
+        tools:visibility="visible" />
+
+    <Button
+        android:id="@+id/button2_ver3"
+        android:layout_width="27dp"
+        android:layout_height="45dp"
+        android:background="@drawable/round_bg"
+        android:text="ACTIONS"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.041"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.629" />
+
+    <ImageView
+        android:id="@+id/imageView_ver3"
+        android:layout_width="203dp"
+        android:layout_height="200dp"
+        android:layout_marginBottom="120dp"
+        android:background="#2C7E57C2"
+        android:elevation="1dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:srcCompat="@android:drawable/screen_background_light_transparent" />
+
+    <TextView
+        android:id="@+id/textView2_ver3"
+        android:layout_width="164dp"
+        android:layout_height="180dp"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView_ver3"
+        app:layout_constraintEnd_toEndOf="@+id/imageView_ver3"
+        app:layout_constraintHorizontal_bias="0.487"
+        app:layout_constraintStart_toStartOf="@+id/imageView_ver3"
+        app:layout_constraintTop_toTopOf="@+id/imageView_ver3"
+        app:layout_constraintVertical_bias="0.65" />
+
+    <TextView
+        android:id="@+id/textView_ver3"
+        android:layout_width="164dp"
+        android:layout_height="wrap_content"
+        android:hint="Add Face"
+        android:textAlignment="center"
+        android:textColor="@color/purple_500"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView_ver3"
+        app:layout_constraintEnd_toEndOf="@+id/imageView_ver3"
+        app:layout_constraintHorizontal_bias="0.487"
+        app:layout_constraintStart_toStartOf="@+id/imageView_ver3"
+        app:layout_constraintTop_toTopOf="@+id/imageView_ver3"
+        app:layout_constraintVertical_bias="0.447" />
+
+    <ImageButton
+        android:id="@+id/imageButton_ver3"
+        android:layout_width="42dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="180dp"
+        android:layout_marginBottom="176dp"
+        android:elevation="2dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView_ver3"
+        app:layout_constraintStart_toStartOf="@+id/imageView_ver3"
+        app:srcCompat="@android:drawable/ic_input_add" />
+
+    <TextView
+        android:id="@+id/textAbovePreview_ver3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:textSize="15sp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/imageView_ver3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:background="@drawable/signup_login_btn_with_effect"
+        android:text="From Gallery"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.98" />
+
+    <TextView
+        android:id="@+id/txt_camera_instructions"
+        android:layout_width="287dp"
+        android:layout_height="32dp"
+        android:layout_marginTop="31dp"
+        android:fontFamily="@font/open_sans"
+        android:gravity="center"
+        android:text="@string/camera_user_instructions"
+        android:textColor="#757575"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.51" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

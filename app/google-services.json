@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "264210044997",
+    "project_id": "face-recoginization-ui",
+    "storage_bucket": "face-recoginization-ui.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:264210044997:android:eb7462e5c2fe2b9cf4ab2c",
+        "android_client_info": {
+          "package_name": "com.example.face_recoginization_ui"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "264210044997-emrcq7c1otrmgq222a0snnhggup118ln.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDue8IIEp4nms3Q5_7RJ6O0cJvJ2mPmct0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "264210044997-emrcq7c1otrmgq222a0snnhggup118ln.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
