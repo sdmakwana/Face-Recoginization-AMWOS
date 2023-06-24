@@ -2,7 +2,7 @@
 # Face Recoginization: AMWOS
  
 
-A Face Recognition application with owner and stranger detection. 
+Face Recognition application with owner and stranger detection. 
 
 
 ## Tech used
