@@ -15,7 +15,7 @@ A Face Recognition application with owner and stranger detection.
 
 ## Main Features
 
-- Real Time Face Owner/Stranger Detection
+- Real Time Owner/Stranger Face Detection
 - Captures Stranger Images with date and time log
 - Locally stores  Stranger Images
 - Account of user with Firebse
