@@ -1,5 +1,5 @@
 
-# Face Recoginization: AMWOS
+# Face Recoginization: A Mordan Way of Security
  
 
 Face Recognition application with owner and stranger detection. 
