@@ -1,6 +1,5 @@
 
-# Face Recoginization: A Modern Way of Security
-AKA SafeGuard
+# SafeGuard: A Modern Way of Security
  
 
 Face Recognition application with owner and stranger detection. 
