@@ -3,7 +3,7 @@
  
 
 Face Recognition application with owner and stranger detection. 
-
+Owner has to add his/hers image which is stored locally on the device.
 
 ## Tech used
 
